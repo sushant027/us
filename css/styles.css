@@ -1,0 +1,177 @@
+#title{
+
+	background-color: #ff4668;
+}
+#features{
+	border-top: 10px;
+	position: relative;
+	background-color: white;
+	z-index: 10;
+}
+.feature{
+	text-align: center;
+	margin-top: 5%;
+}
+.feature-main{
+	font-weight: bold;
+}
+.icon-f{
+	color: #EF8172;
+	margin-bottom: 1rem; 
+
+}
+.testi-img{
+	border-radius: 100%;
+	width: 10%;
+}
+.icon-f:hover {
+	color: #ff4668;
+}
+#press{
+	background-color: #EF8172;
+	text-align: center;
+	padding-bottom: 10%;
+
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 20px 20px;
+}
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	
+	background-color: #EF8172;
+	color: white;
+}
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.price-col{
+	padding: 3% 2%;
+
+}
+.img-i{
+	position: relative;
+	z-index: 0;
+
+
+}
+
+}
+body{
+
+	font-family: 'Montserrat-Black', sans-serif;
+	font-weight: bold;
+}
+.btn-outline-primary{
+	color: #EF8172;
+	border-color: #EF8172;
+}
+.btn-outline-primary:hover{
+	color: white;
+	background-color: #EF8172;
+	border-color: white;
+
+}
+#title{
+	color: white;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5;
+
+}
+h2{
+	font-family: 'Montserrat-bold'
+}
+.android-button{
+
+	background-color: white;
+}
+/*navbar style */
+.navbar{
+	padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+
+}
+
+.nav-item{
+	margin: 0 2rem 0 0;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: 'Montserrat-Light';
+}
+/* Customized button  */
+
+.apple-button{
+	margin: 2.5rem 2rem 0 0;
+}
+.googl-play-button{
+	margin: 2.5rem 2rem 0 0;
+}
+
+.define{
+	text-align: center;
+	margin-top: 100px;
+	color: black;
+}
+
+/* rotate iamge */
+.rotate-img{
+	width: 40%;
+	 transform: rotate(10deg);
+}
+.cta{
+	background-color: #EF8172;
+	text-align: center;
+	padding: 100px;
+	margin-top: 100px;
+	color: white;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.rotate-img{
+		
+		transform: rotate(0);
+		position: static;
+		margin: auto;
+		display:block;
+		margin-top: 10%;
+		margin-bottom: 10%;
+
+
+
+	}
+	
+	.intro{
+		text-align: center;
+	}
+
+}
+@media (max-width: 768px) {
+	.rotate-img{
+		
+		transform: rotate(0);
+		position: static;
+		margin: auto;
+		display:block;
+		margin-top: 10%;
+		margin-bottom: 10%;
+
+
+
+	}
+	
+	.intro{
+		text-align: center;
+	}
+}
